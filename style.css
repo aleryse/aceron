@@ -22,7 +22,7 @@ body {
 
 /* ================= HERO ================= */
 .hero {
-  height: 100vh;
+  min-height: 50vh; /* ocupa aprox la mitad de la pantalla */
   background: var(--dark);
   color: var(--white);
   display: flex;
@@ -30,8 +30,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 2rem;
 }
+
 
 .logo {
   max-width: 320px;
@@ -127,3 +128,4 @@ body {
   padding: 3rem 2rem;
   font-weight: 300;
 }
+
